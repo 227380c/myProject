@@ -31,6 +31,7 @@ public class MyTest {
 		System.out.println(s1);
 		int b = 65536;
 		System.out.println(b>>>1);
+		System.out.println(b>>>2);
 	}
 }
 
