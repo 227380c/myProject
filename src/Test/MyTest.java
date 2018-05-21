@@ -39,6 +39,7 @@ public class MyTest {
         System.out.println(b>>>5);
 		System.out.println(b>>>6);
 		System.out.println(b>>>8);
+        System.out.println(b>>>9);
 	}
 }
 
