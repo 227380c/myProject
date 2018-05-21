@@ -32,6 +32,7 @@ public class MyTest {
 		int b = 65536;
 		System.out.println(b>>>1);
 		System.out.println(b>>>2);
+		System.out.println(b>>>3);
 	}
 }
 
