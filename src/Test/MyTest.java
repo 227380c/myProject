@@ -43,6 +43,7 @@ public class MyTest {
         System.out.println(b>>>9);
         System.out.println(b>>>10);
         System.out.println(b>>>11);
+        System.out.println(b>>>12);
 	}
 }
 

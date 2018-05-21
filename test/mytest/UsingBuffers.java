@@ -36,6 +36,7 @@ public class UsingBuffers {
         System.out.println(quote);
         System.out.println(Pattern.matches(quote, "\\d"));//true  
         System.out.println(Pattern.matches("\\d", "\\d"));//false  
+        System.out.println(Pattern.matches("\\d", "\\d"));//false  
     }  
   
   
