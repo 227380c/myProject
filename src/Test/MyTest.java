@@ -30,15 +30,19 @@ public class MyTest {
 		Arrays.sort(s1);
 		System.out.println(s1);
 		int b = 65536;
-		System.out.println(b>>>1);
+		System.out.println(b >>> 1);
+		System.out.println(123456);
+		System.out.println(b>>>2);
 	}
 }
 
-class S implements Comparable<S>{
+class S implements Comparable<S> {
 	int i = 0;
-    public S(int i){
-    	this.i = i;
-    }
+
+	public S(int i) {
+		this.i = i;
+	}
+
 	@Override
 	public boolean equals(Object b) {
 		if (this.i == ((S) b).i)
@@ -48,11 +52,11 @@ class S implements Comparable<S>{
 
 	@Override
 	public int compareTo(S paramT) {
-		if(this.i>paramT.i){
+		if (this.i > paramT.i) {
 			return 1;
-		}else if(this.i==paramT.i){
+		} else if (this.i == paramT.i) {
 			return 0;
-		}else{
+		} else {
 			return -1;
 		}
 	}
