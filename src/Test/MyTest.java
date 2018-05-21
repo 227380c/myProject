@@ -35,6 +35,7 @@ public class MyTest {
 		System.out.println(b>>>1);
 		System.out.println(b>>>2);
 		System.out.println(b>>>3);
+        System.out.println(b>>>5);
 	}
 }
 
