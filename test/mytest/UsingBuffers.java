@@ -49,6 +49,7 @@ public class UsingBuffers {
         System.out.println(Pattern.matches("\\d", "\\d3"));//false
         System.out.println(Pattern.matches("\\d", "\\d4"));//false
         System.out.println(Pattern.matches("\\d", "\\d5"));//false
+        System.out.println(Pattern.matches("\\d", "\\d7"));//false
     		StringBuilder sbf=new StringBuilder();
     		int i=0;
     		for(i=0;i<43200000;i++){
