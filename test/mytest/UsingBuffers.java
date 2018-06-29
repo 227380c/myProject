@@ -22,7 +22,7 @@ public class UsingBuffers {
         System.out.println(cb.get() + "  " + cb.position()+cb.toString());//U 1  
         System.out.println(cb.get() + "  " + cb.position()+cb.toString());//n 1  
         System.out.println(cb.get(3) + "  " + cb.position()+cb.toString());//n 1 
-        cb.reset();
+        //cb.reset();
         cb.mark();
         cb.flip();
         System.out.println(cb);//12  
